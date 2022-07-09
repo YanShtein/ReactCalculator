@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap');
+
+:root {
+  --display-color: #cfe6da;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(198, 198, 198);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  padding: 10px;
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  background-color: #111112;
+  box-shadow: 1px 1px 5px 10px rgb(255, 255, 255);
+  height: 380px;
+  width: 320px;
+}
+
+.display {
+  height: 65px;
+  background-color: var(--display-color);
+  border-radius: 10px;
+  padding: 6px;
+  border: 8px solid #222026;
+  box-shadow: 1px 2px 2px 2px rgb(34, 34, 34);
+  color: rgb(42, 74, 63);
+  font-family: 'Courier New', Courier, monospace;
+  user-select: none;
+}
+
+.formulaScreen,
+.resultScreen {
+  height: 50%;
+}
+
+.resultScreen {
+  text-align: right;
+}
+
+.pad {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  font-family: 'Exo 2';
+  width: 69px;
+  height: 50px;
+  margin: 3px;
+  background-color: #353030;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 5px #ffffff;
+}
+
+button:active {
+  border: 2px solid white;
+}
+
+#add,
+#subtract,
+#divide,
+#multiply,
+#equals {
+  background-color: rgb(224, 189, 34);
+}
+
+#equals {
+  position: absolute;
+  height: 106px;
+  bottom: 0px;
+}
+
+#clear {
+  background-color: rgb(196, 48, 48);
+  width: 144px;
+  float: left;
+}
+
+#zero {
+  width: 144px;
+}
+
+.author {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 12px;
+  
+}
+
+.author a {
+  text-decoration: none;
+}
