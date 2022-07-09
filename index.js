@@ -109,22 +109,19 @@ class App extends React.Component {
         numbers[divIndex] = numbers[divIndex] / numbers[divIndex + 1]
         numbers.splice(divIndex + 1, 1)
         operators.splice(divIndex, 1)
-      } else {
-      if (multIndex > -1) {
+      } else if (multIndex > -1) {
         numbers[multIndex] = numbers[multIndex] * numbers[multIndex + 1] //1+2*3-> array now 1+6*3
         numbers.splice(multIndex + 1, 1) //1+6*3 -> to remove the 3
         operators.splice(multIndex, 1) //removes the * as it was already used
-      } else {
-      if (subIndex > -1) {
+      } else if (subIndex > -1) {
         numbers[subIndex] = numbers[subIndex] - numbers[subIndex + 1]
         numbers.splice(subIndex + 1, 1)
         operators.splice(subIndex, 1)
-      } else {
-      if (addIndex > -1) {
+      } else if (addIndex > -1) {
         numbers[addIndex] = numbers[addIndex] + numbers[addIndex + 1]
         numbers.splice(addIndex + 1, 1)
         operators.splice(addIndex, 1)
-      }}}};
+      };
     };
 
     let answer = Math.round(numbers[0] * 1000000000000) / 1000000000000;
