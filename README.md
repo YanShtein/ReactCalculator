@@ -12,7 +12,7 @@ This project uses React to build a calculator.
 - Pressing the AC or delete on key -> will clear both formula and result.
 - The Calculate method splites formula into operators and numbers, a while loop will go over each operator and perform the calculation, when there is only one number left, hence all numbers has been calculated, answer will be shown in result, and calculator will be ready for next calculation.
 
-![Screenshot](DrumPad.png)
+![Screenshot](calc.png)
 
 
 Results --> 
