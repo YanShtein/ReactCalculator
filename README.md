@@ -1,7 +1,6 @@
 # React Calculator
 
-FreeCodeCamp project: building 'React Calculator' --> <br/>
-https://www.freecodecamp.org/learn/front-end-development-libraries/#react-and-redux
+<h2><a href="https://codepen.io/yansht/pen/MWVyMbd" rel="nofollow">Live Demo</a></h2>
 
 This project uses React to build a calculator.
 
@@ -14,6 +13,5 @@ This project uses React to build a calculator.
 
 ![Screenshot](calc.PNG)
 
-
-Results --> 
-https://codepen.io/yansht/pen/MWVyMbd
+FreeCodeCamp project: building 'React Calculator' --> <br/>
+https://www.freecodecamp.org/learn/front-end-development-libraries/#react-and-redux
